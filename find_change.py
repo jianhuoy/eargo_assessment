@@ -1,6 +1,8 @@
 COIN_VALUES = [25, 10, 5, 1]
 TEST_CASES = [0, 1, 13, 88, 4999]
 
+# For a given number, find_changes function finds the minimum number of coins
+# needed to come up with that number
 def find_changes(number):
     remaining = number
     

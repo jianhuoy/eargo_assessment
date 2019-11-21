@@ -1,3 +1,9 @@
+/* 
+Following script is written using MS SQL standard
+This website can be used for testing if MS SQL is not available
+http://sqlfiddle.com 
+*/
+
 -- DDL --
 CREATE TABLE input_table
     ([Id] int, [Home_Page] int, [Product_Page] int, [Warranty_Page] int)

@@ -5,8 +5,13 @@ TESTS = [
     [1]
     ]
 
-/*sdfs*/
+# Input: a list of stock prices
+# Output: a tuple of two days, the best buy and sell days to maximize gain
 def find_buy_and_sell_days(prices):
+    # low: current lowest stock price
+    # low_day: the day on which we see the lowest stock price
+    # max_gain: current maximum gain
+    # buy_day, sell_day: current best buy and sell day combination 
     low = float('inf')
     low_day = None
     max_gain = -1
